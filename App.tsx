@@ -18,14 +18,14 @@ import { store } from './src/app/store';
 import { Provider } from 'react-redux';
 import Counter from './src/components/Counter';
 import ButtonRedux from './src/components/ButtonRedux';
+import PokemonList from './src/components/PokemonList';
 
 
 const App = () => {
   return (
     <Provider store={store}>
       <View>
-        <Counter />
-        <ButtonRedux/>
+        <PokemonList/>
       </View>
     </Provider>
   );
